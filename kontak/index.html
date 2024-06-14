@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>CONTACT</title>
+  </head>
+  <body>
+    <!-- container -->
+    <div class="container">
+      <!-- Banner Header -->
+      <div class="nama">
+        <img src="banner.png" alt="Banner" />
+      </div>
+
+      <!-- Menu -->
+      <div class="navigasi">
+        <ul>
+          <a href="../home/index.html"><li>HOME</li></a>
+          <a href="../profile/index.html"><li>PROFILE</li></a>
+          <a href="#"><li>CONTACT</li></a>
+          <a href="../input_nilai/index.html"><li>INPUT NILAI</li></a>
+        </ul>
+      </div>
+
+      <!-- Contact Me -->
+      <div class="wrap">
+        <form class="contact" name="contact" method="post">
+          <ul>
+            <li>
+              <label for="Nama">Nama:</label>
+              <input
+                type="text"
+                name="Nama"
+                placeholder="Nama kamu..."
+                id="Nama"
+                required
+              />
+            </li>
+            <li>
+              <label for="Email">Email:</label>
+              <input
+                type="email"
+                name="Email"
+                placeholder="example@gmail.com"
+                id="Email"
+                required
+              />
+            </li>
+            <li>
+              <label for="Nomor">No. Telp:</label>
+              <input
+                type="number"
+                name="Nomor"
+                placeholder="+62.."
+                id="Nomor"
+                required
+              />
+            </li>
+            <li>
+              <label for="Status">Status:</label>
+              <input
+                type="text"
+                name="Status"
+                placeholder="Status kamu :v"
+                id="Status"
+                required
+              />
+            </li>
+            <li>
+              <label for="Hobi">Hobi:</label>
+              <input
+                type="text"
+                name="Hobi"
+                placeholder="Hobi kamu..."
+                id="Hobi"
+                required
+              />
+            </li>
+            <li>
+              <label for="Alamat">Alamat:</label>
+              <input
+                type="text"
+                name="Alamat"
+                placeholder="Jl.."
+                id="Alamat"
+                required
+              />
+            </li>
+            <li>
+              <label for="Pesan">Pesan:</label>
+              <textarea
+                name="Pesan"
+                rows="6"
+                placeholder="Assalamualaikum..."
+                id="Pesan"
+                required
+              ></textarea>
+            </li>
+            <li class="buttons">
+              <button type="submit">Kirim</button>
+              <button type="reset">Hapus</button>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

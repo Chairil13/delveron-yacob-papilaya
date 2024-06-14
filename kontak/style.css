@@ -1,0 +1,119 @@
+/* CSS untuk memuat font secara terpisah */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
+
+/* CSS Reset dan gaya umum */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f0f0f0; /* Warna latar belakang */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  width: 960px;
+  max-width: 100%;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nama img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navigasi {
+  height: 50px;
+  background-color: #3498db;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navigasi ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.navigasi ul li {
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+  line-height: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navigasi ul li:hover {
+  background-color: lightblue;
+}
+
+.navigasi a:hover {
+  color: black;
+}
+
+.wrap {
+  margin-top: 30px;
+  padding-bottom: 100px;
+}
+
+.contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact li {
+  margin-bottom: 15px;
+}
+
+.contact label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.contact input,
+.contact textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact textarea {
+  resize: none;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.buttons button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: lightblue;
+  color: black;
+}

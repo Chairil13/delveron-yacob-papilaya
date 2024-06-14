@@ -1,0 +1,89 @@
+/* CSS untuk memuat font secara terpisah */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
+
+/* CSS Reset dan gaya umum */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Gaya umum untuk body */
+body {
+  background-color: #f0f0f0; /* Warna latar belakang yang lebih lembut */
+  font-size: 16px; /* Ukuran font default */
+}
+
+a {
+  text-decoration: none; /*menghilangkan dekorasi teks pada link*/
+  color: white; /*mengganti warna teks pada link*/
+}
+
+/* Gaya untuk kontainer */
+.container {
+  max-width: 960px;
+  margin: auto;
+  background-color: #ffffff; /* Warna latar belakang kontainer */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+  padding: 20px; /* Ruang dalam kontainer */
+  border-radius: 8px; /* Sudut bulat kontainer */
+}
+
+/* Gaya untuk header */
+.nama img {
+  display: block;
+  width: 100%; /* Mengisi lebar gambar */
+  height: auto; /* Tinggi gambar otomatis */
+  border-radius: 8px; /* Sudut bulat gambar */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+
+.navigasi {
+  height: 50px; /*tinggi navigasi*/
+  background-color: #3498db; /*warna navigasi*/
+  margin-top: 20px; /* Margin atas */
+  border-radius: 8px; /* Sudut bulat navigasi */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+
+.navigasi ul {
+  list-style-type: none; /* Menghapus bullet pada list */
+  padding: 0;
+  text-align: center; /* Teks rata tengah */
+}
+
+.navigasi ul li {
+  display: inline-block; /*menampilkan link secara horizontal*/
+  font-size: 16px; /*ukuran font*/
+  color: white; /*mengganti warna teks*/
+  line-height: 50px; /*mengatur tinggi teks*/
+  margin-left: 20px; /*mengatur jarak antara link*/
+  margin-right: 20px; /*mengatur jarak antara link*/
+}
+
+.navigasi ul li:hover {
+  background-color: lightblue; /*mengganti warna background saat link disorot*/
+}
+
+/* Gaya untuk konten */
+.konten {
+  margin-top: 20px; /* Jarak dari navigasi */
+}
+
+.isi {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.isi h3 {
+  margin-top: 80px;
+  font-style: italic;
+  font-family: "Brush Script MT", cursive;
+  font-size: 30px;
+}
+
+.end {
+  text-align: center; /* Teks rata tengah */
+  margin-top: 20px; /* Jarak dari konten */
+}
